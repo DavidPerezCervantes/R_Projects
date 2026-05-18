@@ -25,7 +25,7 @@ jobs:
       
       - name: Install packages
         run: |
-          install.packages(c("shiny", "shinylive"))
+          install.packages(c("shiny", "shinylive", "shinythemes", "plotly", "ggplot2", "MASS"))
         shell: Rscript {0}
         
       - name: Build Shinylive App
